@@ -1,0 +1,32 @@
+ 
+
+# PlanAhead Generated IO constraints 
+
+NET "alavancas[3]" IOSTANDARD = LVCMOS33;
+NET "alavancas[2]" IOSTANDARD = LVCMOS33;
+NET "alavancas[1]" IOSTANDARD = LVCMOS33;
+NET "alavancas[0]" IOSTANDARD = LVCMOS33;
+NET "leds[3]" IOSTANDARD = LVCMOS33;
+NET "leds[2]" IOSTANDARD = LVCMOS33;
+NET "leds[1]" IOSTANDARD = LVCMOS33;
+NET "leds[0]" IOSTANDARD = LVCMOS33;
+NET "step[3]" IOSTANDARD = LVCMOS33;
+NET "step[2]" IOSTANDARD = LVCMOS33;
+NET "step[1]" IOSTANDARD = LVCMOS33;
+NET "step[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = E12;
+NET "alavancas[1]" LOC = U10;
+NET "alavancas[0]" LOC = V8;
+NET "leds[0]" LOC = R20;
+NET "leds[1]" LOC = T19;
+NET "alavancas[2]" LOC = U8;
+NET "alavancas[3]" LOC = T9;
+NET "leds[2]" LOC = U20;
+NET "leds[3]" LOC = U19;
+NET "step[0]" LOC = V19;
+NET "step[1]" LOC = V20;
+NET "step[2]" LOC = Y22;
